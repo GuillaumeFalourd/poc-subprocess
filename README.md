@@ -7,6 +7,11 @@
 **References:**
 
 - https://github.com/GuillaumeFalourd/poc-subprocess
+- https://geekflare.com/learn-python-subprocess/
+
+## Warning
+
+_Never pass untrusted input to `subprocess.run`. As `subprocess.run` has the ability to execute arbitrary commands on your computer, malicious individuals can use it to manipulate your computer in unexpected ways._
 
 ## 🤝 Contributing
 
